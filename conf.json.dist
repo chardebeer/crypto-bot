@@ -48,19 +48,19 @@
             "port": 465
         },
         "telegram" : {
-            "chat_id": -758561517,
-            "token": 5072009367:AAHG1gegmMID3F2ZwZwbxU3GpChxmjJSjoY
+            "chat_id": "-758561517",
+            "token": "5072009367:AAHG1gegmMID3F2ZwZwbxU3GpChxmjJSjoY"
         }
     },
     "log": {
       "telegram": {
-        "chatId": null,
-        "token": null,
+        "chatId": "-758561517",
+        "token": "5072009367:AAHG1gegmMID3F2ZwZwbxU3GpChxmjJSjoY",
         "level": "debug"
       }
     },
     "webserver": {
-        "ip": "0.0.0.0",
+        "ip": "127.0.0.1",
         "port": 8080,
         "username": null,
         "password": null
