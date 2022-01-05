@@ -4,7 +4,7 @@ c.symbols = [
   {
     symbol: 'ETHUSDT',
     exchange: 'binance_futures',
-    periods: ['1m', '15m', '1h'],
+    periods: ['1m', '15m', '4h'],
     trade: {
       currency_capital: 10,
       strategies: [

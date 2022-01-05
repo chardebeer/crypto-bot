@@ -91,7 +91,7 @@ c.init = () => {
             z.forEach((pair) => {
                 let cfg = {
                     'symbol': pair,
-                    'periods': ['1m', '15m', '1h'],
+                    'periods': ['1m', '15m', '4h'],
                     'exchange': 'binance',
                     'state': 'watch',
                     'watchdogs': [
@@ -113,7 +113,7 @@ c.init = () => {
                         {
                             'strategy': 'macd',
                             'options': {
-                                'period': '1h'
+                                'period': '4h'
                             }
                         }
                     ]
@@ -142,7 +142,7 @@ let y = [
 y.forEach((pair) => {
     c.symbols.push({
         'symbol': pair,
-        'periods': ['1m', '15m', '1h'],
+        'periods': ['1m', '15m', '4h'],
         'exchange': 'bitmex',
         'state': 'watch',
         'extra': {
@@ -176,7 +176,7 @@ y.forEach((pair) => {
             {
                 'strategy': 'macd',
                 'options': {
-                    'period': '1h'
+                    'period': '4h'
                 }
             }
         ]
@@ -191,7 +191,7 @@ let l = [
 l.forEach((pair) => {
     c.symbols.push({
         'symbol': pair,
-        'periods': ['1m', '15m', '1h'],
+        'periods': ['1m', '15m', '4h'],
         'exchange': 'bitmex_testnet',
         'state': 'watch',
         'watchdogs': [
@@ -219,7 +219,7 @@ l.forEach((pair) => {
             {
                 'strategy': 'macd',
                 'options': {
-                    'period': '1h'
+                    'period': '4h'
                 }
             }
         ]
@@ -233,7 +233,7 @@ let z = [
 z.forEach((pair) => {
     c.symbols.push({
         'symbol': pair,
-        'periods': ['1m', '15m', '1h'],
+        'periods': ['1m', '15m', '4h'],
         'exchange': 'binance',
         'state': 'watch',
         'strategies': [
