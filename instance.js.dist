@@ -32,33 +32,10 @@ c.init = async () => {
     }))
   );
 
-    // FTX all "perp" / futures contracts
-    c.symbols.push(...(await InstanceUtil.ftxInitPerp()));
-
-    // Binance all USDT pairs
-    c.symbols.push(...(await InstanceUtil.binanceInitUsd()));
-
     // Binance all USDT pairs spot or margin
     // c.symbols.push(...(await InstanceUtil.binanceInitMarginUsd()));
     // c.symbols.push(...(await InstanceUtil.binanceInitSpotUsd()));
 
-
-    // Binance futures
-    c.symbols.push(...(await InstanceUtil.binanceFuturesInit()));
-
-    // Binance futures or trade with 2 USD
-    c.symbols.push(
-      ...(await InstanceUtil.binanceFuturesInit(pair => {
-        pair.trade = { currency_capital: 2 };
-        return pair;
-      }))
-    );
-
-    // Bitfinex USD margin pairs
-    c.symbols.push(...(await InstanceUtil.bitfinexUsdMarginInit()));
-
-    // Bybit USD pairs
-    c.symbols.push(...(await InstanceUtil.bybitInit()));
 };
 */
 

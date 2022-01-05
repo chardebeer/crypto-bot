@@ -48,8 +48,8 @@
             "port": 465
         },
         "telegram" : {
-            "chat_id": null,
-            "token": null
+            "chat_id": "-758561517"",
+            "token": "5072009367:AAHG1gegmMID3F2ZwZwbxU3GpChxmjJSjoY"
         }
     },
     "log": {
@@ -78,7 +78,7 @@
         "retry_ms": null
     },
     "dashboard":{
-        "periods": ["15m", "1h"]
+        "periods": ["15m", "4h"]
     },
     "desks": [
         {
@@ -132,27 +132,5 @@
             }
           ]
         },
-        {
-            "name":"Stock",
-            "grid":3,
-            "intervals":[
-                1440
-            ],
-            "height":400,
-            "pairs":[
-                {
-                    "symbol":"SPX500USD"
-                },
-                {
-                    "symbol":"NAS100USD"
-                },
-                {
-                    "symbol":"DJI"
-                },
-                {
-                    "symbol":"EURUSD"
-                }
-            ]
-        }
     ]
 }
